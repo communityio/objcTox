@@ -21,13 +21,13 @@ end
 
 
 target :iOSDemo do
-    platform :ios, '7.0'
+    platform :ios, '8.0'
     common_pods
     demo_pods
 end
 
 target :iOSDemoTests do
-    platform :ios, '7.0'
+    platform :ios, '8.0'
     common_pods
     test_pods
 end
