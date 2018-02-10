@@ -28,7 +28,7 @@ PODS:
   - Realm (1.0.1):
     - Realm/Headers (= 1.0.1)
   - Realm/Headers (1.0.1)
-  - toxcore (0.1.10):
+  - toxcore (0.1.10-improving-video):
     - libopus-patched-config (= 1.1)
     - libsodium (~> 1.0.1)
   - TPCircularBuffer (0.0.1)
@@ -39,8 +39,17 @@ DEPENDENCIES:
   - Masonry (~> 0.6.1)
   - OCMock (= 3.3.1)
   - Realm (= 1.0.1)
-  - toxcore (= 0.1.10)
+  - toxcore (from `https://github.com/communityio/toxcore.git`)
   - TPCircularBuffer (~> 0.0.1)
+
+EXTERNAL SOURCES:
+  toxcore:
+    :git: https://github.com/communityio/toxcore.git
+
+CHECKOUT OPTIONS:
+  toxcore:
+    :commit: 014e9bebd1f47c858bc5987a246be0bfb60aa6cb
+    :git: https://github.com/communityio/toxcore.git
 
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
@@ -50,9 +59,9 @@ SPEC CHECKSUMS:
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   OCMock: f3f61e6eaa16038c30caa5798c5e49d3307b6f22
   Realm: 2e15e39d35b08abb529e212ed5d8af107b5236c8
-  toxcore: fcb63df0a1df64042644e53f648725cf93566691
+  toxcore: f6129b459248317ab693f7d2424a4c7940fc9d60
   TPCircularBuffer: 949e9632b9fb99b7274d7b2296ee22bff5841e35
 
-PODFILE CHECKSUM: 063ca2693e9f5107475bc39691ee8ad7b11d4651
+PODFILE CHECKSUM: 59e1250b754815cc1cc169b4cf493a5e94534bce
 
 COCOAPODS: 1.0.1
