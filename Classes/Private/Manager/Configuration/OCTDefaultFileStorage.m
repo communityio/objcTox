@@ -35,7 +35,7 @@
         saveFileName = @"save";
     }
 
-    self.saveFileName = [saveFileName stringByAppendingString:@".tox"];
+    self.saveFileName = [saveFileName stringByAppendingString:@".octo"];
     self.baseDirectory = baseDirectory;
     self.temporaryDirectory = temporaryDirectory;
 
